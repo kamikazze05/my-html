@@ -1,0 +1,46 @@
+body{
+ background: white;
+ color:#555;
+ text-align: center;
+}
+
+.logo{
+ margin-top:20%;
+ font-size:40px;
+ font-weight:normal;
+}
+
+.brackets{
+ font-family: Advent Pro, sans-serif;
+}
+
+.left{
+ color:red;
+}
+
+.right{
+ color:blue;
+}
+
+.sample{
+ padding:20px;
+ font-size:18px;
+ background: inherit;
+ color:inherit;
+}
+
+#button{
+ margin-top:10px;
+ background:dodgerblue;
+ color:white;
+ width:80%;
+ height:60px;
+ font-size: 20px;
+ outline: none;
+ border:5px solid deepskyblue;
+ border-radius: 5px;
+}
+
+#button:active{
+ transform: scale(0.95);
+}
